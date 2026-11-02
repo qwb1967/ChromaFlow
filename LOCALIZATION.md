@@ -3,36 +3,43 @@
 ## 已完成的本地化配置
 
 ### 支持的语言
-- **英文 (en)**: 默认语言
-- **简体中文 (zh-Hans)**: 已完全本地化
-- **繁体中文 (zh-Hant)**: 已完全本地化
-- **日文 (ja)**: 已完全本地化
-- **韩文 (ko)**: 已完全本地化
-- **德文 (de)**: 已完全本地化
+
+以 `ChromaFlow/*.lproj` 为准：
+
+- **英文 (en)**：默认语言
+- **简体中文 (zh-Hans)**
+- **繁体中文 (zh-Hant)**
+- **日文 (ja)**
+- **韩文 (ko)**
+- **德文 (de)**
+- **西班牙文 (es)**
+- **法文 (fr)**
+- **印地文 (hi)**
+- **意大利文 (it)**
+- **巴西葡萄牙文 (pt-BR)**
+- **俄文 (ru)**
+
+每种语言目录里都有 `Localizable.strings` 和 `InfoPlist.strings`。
 
 ### 本地化文件结构
 
 ```
 ChromaFlow/
 ├── en.lproj/
-│   ├── Localizable.strings    # 英文字符串资源
-│   └── InfoPlist.strings      # 英文应用信息
 ├── zh-Hans.lproj/
-│   ├── Localizable.strings    # 简体中文字符串资源
-│   └── InfoPlist.strings      # 简体中文应用信息
 ├── zh-Hant.lproj/
-│   ├── Localizable.strings    # 繁体中文字符串资源
-│   └── InfoPlist.strings      # 繁体中文应用信息
 ├── ja.lproj/
-│   ├── Localizable.strings    # 日文字符串资源
-│   └── InfoPlist.strings      # 日文应用信息
 ├── ko.lproj/
-│   ├── Localizable.strings    # 韩文字符串资源
-│   └── InfoPlist.strings      # 韩文应用信息
-└── de.lproj/
-    ├── Localizable.strings    # 德文字符串资源
-    └── InfoPlist.strings      # 德文应用信息
+├── de.lproj/
+├── es.lproj/
+├── fr.lproj/
+├── hi.lproj/
+├── it.lproj/
+├── pt-BR.lproj/
+└── ru.lproj/
 ```
+
+每个目录包含 `Localizable.strings` 和 `InfoPlist.strings`。
 
 ### 已本地化的内容
 
@@ -111,11 +118,11 @@ ChromaFlow/
 1. **在 Xcode 中测试**：
    - Product → Scheme → Edit Scheme
    - Run → Options → Application Language
-   - 选择不同语言进行测试（English、简体中文、繁體中文、日本語、한국어、Deutsch）
+   - 选择不同语言进行测试（en、zh-Hans、zh-Hant、ja、ko、de、es、fr、hi、it、pt-BR、ru）
 
 2. **在系统中测试**：
    - 系统偏好设置 → 语言与地区
-   - 将首选语言改为英文、简体中文、繁体中文、日文、韩文或德文
+   - 将首选语言改为上面列出的任意一种
    - 重新启动应用
 
 ### 注意事项

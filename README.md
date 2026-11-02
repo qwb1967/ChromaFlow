@@ -4,6 +4,8 @@ A macOS menu-bar app for animated desktop wallpaper. The main window previews fl
 
 The on-screen name is 正念壁纸. The Xcode project name is ChromaFlow. The marketing version is 1.1.
 
+The app is on the Mac App Store: [正念壁纸](https://apps.apple.com/us/app/id6740222736).
+
 ## Features
 
 - Nine color themes: Colorful, Green, Yellow, Orange, Red, Purple, Blue, Warm Silver, and Cool Silver
@@ -18,7 +20,7 @@ The on-screen name is 正念壁纸. The Xcode project name is ChromaFlow. The ma
 
 - macOS 14.0 or later (`MACOSX_DEPLOYMENT_TARGET` on the Xcode target)
 - Xcode with Swift 5
-- Automatic signing, currently set to development team `B86WA58GRJ`. On another Mac, switch Signing & Capabilities to your own team
+- Automatic signing. After cloning, select your own team in Signing & Capabilities. The project does not set a development team.
 
 ## Build and run
 
@@ -74,4 +76,4 @@ Strings live in each `Localizable.strings` file. `verify_localization.sh` and `t
 
 ## Contributing
 
-Edit the matching `Localizable.strings` files, or start from the main window, wallpaper, and status-bar code. Before submitting, run the localization scripts above and check that new strings exist for every language.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Edit the matching `Localizable.strings` files, or start from the main window, wallpaper, and status-bar code. Before submitting, run the localization scripts above and check that new strings exist for every language.
