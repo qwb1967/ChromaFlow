@@ -70,7 +70,7 @@ Strings live in each `Localizable.strings` file. `verify_localization.sh` and `t
 
 ## License
 
-There is no `LICENSE` file yet. The license is not set.
+[MIT](LICENSE). Copyright (c) 2026 钱文博.
 
 ## Contributing
 
