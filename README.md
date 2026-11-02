@@ -1,26 +1,23 @@
 # ChromaFlow
 
-A macOS menu-bar app for animated desktop wallpaper. The main window previews floating bubbles; once a theme is chosen, the current frame can be set as the desktop wallpaper.
+macOS menu-bar app for animated bubble wallpaper. The main window previews a theme; Set as Wallpaper applies it to the desktop.
 
-The on-screen name is 正念壁纸. The Xcode project name is ChromaFlow. The marketing version is 1.1.
-
-The app is on the Mac App Store: [正念壁纸](https://apps.apple.com/us/app/id6740222736).
+On-screen name: 正念壁纸. Version 1.1. [Mac App Store](https://apps.apple.com/us/app/id6740222736).
 
 ## Features
 
-- Nine color themes: Colorful, Green, Yellow, Orange, Red, Purple, Blue, Warm Silver, and Cool Silver
-- Five appearance modes: Auto, Auto (Black), Light, Dark, and Dark (Black)
-- Runs from the menu bar. Closing the main window leaves the app in the status bar
-- Status-bar menu: Open Main Window, Power Save Mode, Launch at Login, and Quit
-- Power Save Mode lowers the animation frame rate and reduces how many bubbles are on screen
-- Setting the wallpaper asks for Automation permission so the app can hide desktop icons through Finder
-- Interface strings are localized. See the language list below
+- Nine themes: Colorful, Green, Yellow, Orange, Red, Purple, Blue, Warm Silver, Cool Silver
+- Five appearances: Auto, Auto (Black), Light, Dark, Dark (Black)
+- Menu-bar app. Closing the window leaves it in the status bar: Open Main Window, Power Save Mode, Launch at Login, Quit
+- Power Save Mode lowers the frame rate and the bubble count
+- Setting the wallpaper needs Automation permission so the app can hide desktop icons through Finder
+- Localized. Languages are listed in [LOCALIZATION.md](LOCALIZATION.md)
 
 ## Requirements
 
-- macOS 14.0 or later (`MACOSX_DEPLOYMENT_TARGET` on the Xcode target)
-- Xcode with Swift 5
-- Automatic signing. After cloning, select your own team in Signing & Capabilities. The project does not set a development team.
+- macOS 14.0 or later
+- Xcode, Swift 5
+- Your own Apple team in Signing & Capabilities. This repo does not set one
 
 ## Build and run
 
@@ -28,47 +25,32 @@ The app is on the Mac App Store: [正念壁纸](https://apps.apple.com/us/app/id
 open ChromaFlow.xcodeproj
 ```
 
-In Xcode, select the `ChromaFlow` scheme and press ⌘R.
-
-Command-line builds:
+Select the `ChromaFlow` scheme and press ⌘R. The app does not stay in the Dock.
 
 ```bash
-xcodebuild -project ChromaFlow.xcodeproj -scheme ChromaFlow -configuration Debug
 xcodebuild -project ChromaFlow.xcodeproj -scheme ChromaFlow -configuration Release
 ```
 
-The app starts as a menu-bar agent (`LSUIElement`) and does not stay in the Dock. Use the status-bar icon to open the menu.
-
 ## Usage
 
-1. Choose Open Main Window from the status bar.
-2. Pick a theme and an appearance mode, and preview the bubbles.
+1. Open Main Window from the status bar.
+2. Pick a theme and an appearance.
 3. Click Set as Wallpaper.
-4. If macOS asks for permission, open System Settings > Privacy & Security > Automation and allow 正念壁纸 to control Finder.
-5. After closing the window, turn Power Save Mode or Launch at Login on or off from the status bar.
+4. If macOS asks, allow 正念壁纸 to control Finder under System Settings > Privacy & Security > Automation.
 
 ## Project layout
 
 ```
-ChromaFlow.xcodeproj/          Xcode project
+ChromaFlow.xcodeproj/
 ChromaFlow/
-  ChromaFlowApp.swift          App entry point
-  AppDelegate.swift            Main window and menu-bar lifecycle
-  ContentView.swift            Main UI, themes, and bubble preview
-  Models/                      Bubbles, themes, and appearance modes
-  Utils/WallpaperManager.swift Wallpaper, status-bar menu, desktop icons
+  ChromaFlowApp.swift          Entry point
+  AppDelegate.swift            Window and menu-bar lifecycle
+  ContentView.swift            Main UI, themes, bubble preview
+  Models/                      Bubbles, themes, appearance
+  Utils/WallpaperManager.swift Wallpaper, status bar, desktop icons
   Services/                    Launch at login
-  *.lproj/                     Localized strings
-LOCALIZATION.md                Localization notes (the language list may be incomplete; trust the *.lproj directories)
+  *.lproj/                     Strings
 ```
-
-## Localization
-
-These language directories are already in `ChromaFlow/`:
-
-`en`, `zh-Hans`, `zh-Hant`, `ja`, `ko`, `de`, `es`, `fr`, `hi`, `it`, `pt-BR`, `ru`
-
-Strings live in each `Localizable.strings` file. `verify_localization.sh` and `test_localization.sh` in the repo can check them.
 
 ## License
 
@@ -76,4 +58,4 @@ Strings live in each `Localizable.strings` file. `verify_localization.sh` and `t
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Edit the matching `Localizable.strings` files, or start from the main window, wallpaper, and status-bar code. Before submitting, run the localization scripts above and check that new strings exist for every language.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
