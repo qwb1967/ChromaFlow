@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Portuguese (Brazil) Localization
+*/
+
+"CFBundleName" = "Papel de Parede Mindfulness";
+"CFBundleDisplayName" = "Papel de Parede Mindfulness";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. Todos os direitos reservados.";

@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  French Localization
+*/
+
+"CFBundleName" = "Fond d'écran Pleine Conscience";
+"CFBundleDisplayName" = "Fond d'écran Pleine Conscience";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. Tous droits réservés.";

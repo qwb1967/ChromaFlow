@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Spanish Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Colorido";
+"theme.green" = "Verde";
+"theme.yellow" = "Amarillo";
+"theme.orange" = "Naranja";
+"theme.red" = "Rojo";
+"theme.purple" = "Púrpura";
+"theme.blue" = "Azul";
+"theme.warmSilver" = "Plata Cálida";
+"theme.coolSilver" = "Plata Fría";
+
+// Appearance Modes
+"appearance.auto" = "Automático";
+"appearance.autoBlack" = "Automático (Negro)";
+"appearance.light" = "Claro";
+"appearance.dark" = "Oscuro";
+"appearance.black" = "Oscuro (Negro)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Establecer como fondo de pantalla";
+"button.openMainWindow" = "Abrir ventana principal";
+"button.powerSaveMode" = "Modo ahorro de energía";
+"button.launchAtLogin" = "Iniciar al iniciar sesión";
+"button.quit" = "Salir";
+"button.ok" = "Aceptar";
+"button.later" = "Más tarde";
+"button.openSystemPreferences" = "Abrir Preferencias del Sistema";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Permiso requerido";
+"alert.permissionDescription" = "La aplicación necesita permisos adicionales para %@.\n\nPor favor, vaya a Preferencias del Sistema > Seguridad y Privacidad > Privacidad > Automatización y permita que 'ChromaFlow' acceda a 'Finder'.";
+"alert.hideDesktopIcons" = "ocultar iconos del escritorio";
+"alert.setWallpaperFailed" = "Error al establecer fondo de pantalla";
+"alert.setWallpaperFailedDescription" = "No se puede establecer el fondo de pantalla. Esto puede deberse a problemas de permisos o errores de escritura de archivos.\n\nDetalles del error: %@";
+"alert.launchAtLoginFailed" = "Error al configurar inicio automático";
+"alert.launchAtLoginFailedDescription" = "No se pudo cambiar la configuración de inicio automático.\n\nDetalles del error: %@";
+
+// App Name
+"app.name" = "Fondo de Pantalla Mindfulness";

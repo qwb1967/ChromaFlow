@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Chinese (Simplified) Localization
+*/
+
+// Theme Names
+"theme.colorful" = "多彩";
+"theme.green" = "绿色";
+"theme.yellow" = "黄色";
+"theme.orange" = "橙色";
+"theme.red" = "红色";
+"theme.purple" = "紫色";
+"theme.blue" = "蓝色";
+"theme.warmSilver" = "暖银";
+"theme.coolSilver" = "冷银";
+
+// Appearance Modes
+"appearance.auto" = "自动";
+"appearance.autoBlack" = "自动(黑色)";
+"appearance.light" = "浅色";
+"appearance.dark" = "深色";
+"appearance.black" = "深色(黑色)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "设置为壁纸";
+"button.openMainWindow" = "打开主界面";
+"button.powerSaveMode" = "省电模式";
+"button.launchAtLogin" = "开机启动";
+"button.quit" = "退出";
+"button.ok" = "确定";
+"button.later" = "稍后";
+"button.openSystemPreferences" = "打开系统偏好设置";
+
+// Alerts and Messages
+"alert.permissionRequired" = "需要权限";
+"alert.permissionDescription" = "应用需要额外权限才能%@。\n\n请在系统偏好设置 > 安全性与隐私 > 隐私 > 自动化中，允许「正念壁纸」访问「Finder」。";
+"alert.hideDesktopIcons" = "隐藏桌面图标";
+"alert.setWallpaperFailed" = "设置壁纸失败";
+"alert.setWallpaperFailedDescription" = "无法设置壁纸，可能是权限问题或文件写入失败。\n\n错误详情：%@";
+"alert.launchAtLoginFailed" = "无法设置开机启动";
+"alert.launchAtLoginFailedDescription" = "修改开机启动设置失败。\n\n错误详情：%@";
+
+// App Name
+"app.name" = "正念壁纸";

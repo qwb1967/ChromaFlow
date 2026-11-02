@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Japanese Localization
+*/
+
+// Theme Names
+"theme.colorful" = "カラフル";
+"theme.green" = "グリーン";
+"theme.yellow" = "イエロー";
+"theme.orange" = "オレンジ";
+"theme.red" = "レッド";
+"theme.purple" = "パープル";
+"theme.blue" = "ブルー";
+"theme.warmSilver" = "ウォームシルバー";
+"theme.coolSilver" = "クールシルバー";
+
+// Appearance Modes
+"appearance.auto" = "自動";
+"appearance.autoBlack" = "自動（ブラック）";
+"appearance.light" = "ライト";
+"appearance.dark" = "ダーク";
+"appearance.black" = "ダーク（ブラック）";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "壁紙に設定";
+"button.openMainWindow" = "メインウィンドウを開く";
+"button.powerSaveMode" = "省電力モード";
+"button.launchAtLogin" = "ログイン時に起動";
+"button.quit" = "終了";
+"button.ok" = "OK";
+"button.later" = "後で";
+"button.openSystemPreferences" = "システム環境設定を開く";
+
+// Alerts and Messages
+"alert.permissionRequired" = "許可が必要です";
+"alert.permissionDescription" = "アプリケーションが%@するには追加の許可が必要です。\n\nシステム環境設定 > セキュリティとプライバシー > プライバシー > オートメーションで、「ChromaFlow」が「Finder」にアクセスすることを許可してください。";
+"alert.hideDesktopIcons" = "デスクトップアイコンを非表示";
+"alert.setWallpaperFailed" = "壁紙の設定に失敗しました";
+"alert.setWallpaperFailedDescription" = "壁紙を設定できません。権限の問題またはファイルの書き込みエラーの可能性があります。\n\nエラーの詳細：%@";
+"alert.launchAtLoginFailed" = "ログイン時起動の設定に失敗しました";
+"alert.launchAtLoginFailedDescription" = "ログイン時起動の設定を変更できませんでした。\n\nエラーの詳細：%@";
+
+// App Name
+"app.name" = "ChromaFlow";

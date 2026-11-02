@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Traditional Chinese Localization
+*/
+
+"CFBundleName" = "正念桌布";
+"CFBundleDisplayName" = "正念桌布";
+"NSHumanReadableCopyright" = "版權所有 © 2024 正念桌布。保留所有權利。";

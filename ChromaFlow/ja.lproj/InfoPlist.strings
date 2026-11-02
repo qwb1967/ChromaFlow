@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Japanese Localization
+*/
+
+"CFBundleName" = "マインドフル壁紙";
+"CFBundleDisplayName" = "マインドフル壁紙";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. All rights reserved.";

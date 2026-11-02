@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Traditional Chinese Localization
+*/
+
+// Theme Names
+"theme.colorful" = "多彩";
+"theme.green" = "綠色";
+"theme.yellow" = "黃色";
+"theme.orange" = "橙色";
+"theme.red" = "紅色";
+"theme.purple" = "紫色";
+"theme.blue" = "藍色";
+"theme.warmSilver" = "暖銀";
+"theme.coolSilver" = "冷銀";
+
+// Appearance Modes
+"appearance.auto" = "自動";
+"appearance.autoBlack" = "自動(黑色)";
+"appearance.light" = "淺色";
+"appearance.dark" = "深色";
+"appearance.black" = "深色(黑色)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "設定為桌布";
+"button.openMainWindow" = "開啟主介面";
+"button.powerSaveMode" = "省電模式";
+"button.launchAtLogin" = "開機啟動";
+"button.quit" = "結束";
+"button.ok" = "確定";
+"button.later" = "稍後";
+"button.openSystemPreferences" = "開啟系統偏好設定";
+
+// Alerts and Messages
+"alert.permissionRequired" = "需要權限";
+"alert.permissionDescription" = "應用程式需要額外權限才能%@。\n\n請在系統偏好設定 > 安全性與隱私權 > 隱私權 > 自動化中，允許「正念桌布」存取「Finder」。";
+"alert.hideDesktopIcons" = "隱藏桌面圖示";
+"alert.setWallpaperFailed" = "設定桌布失敗";
+"alert.setWallpaperFailedDescription" = "無法設定桌布，可能是權限問題或檔案寫入失敗。\n\n錯誤詳情：%@";
+"alert.launchAtLoginFailed" = "無法設定開機啟動";
+"alert.launchAtLoginFailedDescription" = "修改開機啟動設定失敗。\n\n錯誤詳情：%@";
+
+// App Name
+"app.name" = "正念桌布";

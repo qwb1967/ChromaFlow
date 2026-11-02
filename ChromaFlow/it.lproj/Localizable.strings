@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Italian Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Colorato";
+"theme.green" = "Verde";
+"theme.yellow" = "Giallo";
+"theme.orange" = "Arancione";
+"theme.red" = "Rosso";
+"theme.purple" = "Viola";
+"theme.blue" = "Blu";
+"theme.warmSilver" = "Argento Caldo";
+"theme.coolSilver" = "Argento Freddo";
+
+// Appearance Modes
+"appearance.auto" = "Automatico";
+"appearance.autoBlack" = "Automatico (Nero)";
+"appearance.light" = "Chiaro";
+"appearance.dark" = "Scuro";
+"appearance.black" = "Scuro (Nero)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Imposta come sfondo";
+"button.openMainWindow" = "Apri finestra principale";
+"button.powerSaveMode" = "Modalità risparmio energetico";
+"button.launchAtLogin" = "Avvia all'accesso";
+"button.quit" = "Esci";
+"button.ok" = "OK";
+"button.later" = "Più tardi";
+"button.openSystemPreferences" = "Apri Preferenze di Sistema";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Autorizzazione richiesta";
+"alert.permissionDescription" = "L'app richiede autorizzazioni aggiuntive per %@.\n\nVai a Preferenze di Sistema > Sicurezza e Privacy > Privacy > Automazione e consenti a 'ChromaFlow' di accedere a 'Finder'.";
+"alert.hideDesktopIcons" = "nascondere le icone del desktop";
+"alert.setWallpaperFailed" = "Impossibile impostare lo sfondo";
+"alert.setWallpaperFailedDescription" = "Impossibile impostare lo sfondo. Potrebbe essere dovuto a problemi di autorizzazione o errori di scrittura del file.\n\nDettagli errore: %@";
+"alert.launchAtLoginFailed" = "Impossibile configurare l'avvio automatico";
+"alert.launchAtLoginFailedDescription" = "Impossibile modificare le impostazioni di avvio automatico.\n\nDettagli errore: %@";
+
+// App Name
+"app.name" = "Sfondo Mindfulness";

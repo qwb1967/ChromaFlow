@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Italian Localization
+*/
+
+"CFBundleName" = "Sfondo Mindfulness";
+"CFBundleDisplayName" = "Sfondo Mindfulness";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. Tutti i diritti riservati.";

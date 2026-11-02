@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  French Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Multicolore";
+"theme.green" = "Vert";
+"theme.yellow" = "Jaune";
+"theme.orange" = "Orange";
+"theme.red" = "Rouge";
+"theme.purple" = "Violet";
+"theme.blue" = "Bleu";
+"theme.warmSilver" = "Argent Chaud";
+"theme.coolSilver" = "Argent Froid";
+
+// Appearance Modes
+"appearance.auto" = "Automatique";
+"appearance.autoBlack" = "Automatique (Noir)";
+"appearance.light" = "Clair";
+"appearance.dark" = "Sombre";
+"appearance.black" = "Sombre (Noir)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Définir comme fond d'écran";
+"button.openMainWindow" = "Ouvrir la fenêtre principale";
+"button.powerSaveMode" = "Mode économie d'énergie";
+"button.launchAtLogin" = "Lancer à la connexion";
+"button.quit" = "Quitter";
+"button.ok" = "OK";
+"button.later" = "Plus tard";
+"button.openSystemPreferences" = "Ouvrir les préférences système";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Autorisation requise";
+"alert.permissionDescription" = "L'application nécessite des autorisations supplémentaires pour %@.\n\nVeuillez aller dans Préférences Système > Sécurité et confidentialité > Confidentialité > Automatisation et autoriser 'ChromaFlow' à accéder à 'Finder'.";
+"alert.hideDesktopIcons" = "masquer les icônes du bureau";
+"alert.setWallpaperFailed" = "Échec de la définition du fond d'écran";
+"alert.setWallpaperFailedDescription" = "Impossible de définir le fond d'écran. Cela peut être dû à des problèmes d'autorisation ou à une erreur d'écriture de fichier.\n\nDétails de l'erreur : %@";
+"alert.launchAtLoginFailed" = "Échec du lancement à la connexion";
+"alert.launchAtLoginFailedDescription" = "Impossible de modifier le paramètre de lancement à la connexion.\n\nDétails de l'erreur : %@";
+
+// App Name
+"app.name" = "Fond d'écran Pleine Conscience";

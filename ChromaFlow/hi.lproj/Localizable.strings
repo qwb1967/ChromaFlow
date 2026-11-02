@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Hindi Localization
+*/
+
+// Theme Names
+"theme.colorful" = "रंगीन";
+"theme.green" = "हरा";
+"theme.yellow" = "पीला";
+"theme.orange" = "नारंगी";
+"theme.red" = "लाल";
+"theme.purple" = "बैंगनी";
+"theme.blue" = "नीला";
+"theme.warmSilver" = "गर्म चांदी";
+"theme.coolSilver" = "ठंडी चांदी";
+
+// Appearance Modes
+"appearance.auto" = "स्वचालित";
+"appearance.autoBlack" = "स्वचालित (काला)";
+"appearance.light" = "हल्का";
+"appearance.dark" = "गहरा";
+"appearance.black" = "गहरा (काला)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "वॉलपेपर के रूप में सेट करें";
+"button.openMainWindow" = "मुख्य विंडो खोलें";
+"button.powerSaveMode" = "ऊर्जा बचत मोड";
+"button.launchAtLogin" = "लॉगिन पर प्रारंभ करें";
+"button.quit" = "बाहर निकलें";
+"button.ok" = "ठीक है";
+"button.later" = "बाद में";
+"button.openSystemPreferences" = "सिस्टम प्राथमिकताएं खोलें";
+
+// Alerts and Messages
+"alert.permissionRequired" = "अनुमति आवश्यक";
+"alert.permissionDescription" = "ऐप को %@ के लिए अतिरिक्त अनुमति की आवश्यकता है।\n\nकृपया सिस्टम प्राथमिकताएं > सुरक्षा और गोपनीयता > गोपनीयता > ऑटोमेशन पर जाएं और 'ChromaFlow' को 'Finder' तक पहुंचने की अनुमति दें।";
+"alert.hideDesktopIcons" = "डेस्कटॉप आइकन छुपाने";
+"alert.setWallpaperFailed" = "वॉलपेपर सेट करना विफल";
+"alert.setWallpaperFailedDescription" = "वॉलपेपर सेट करने में असमर्थ। यह अनुमति समस्याओं या फ़ाइल लेखन त्रुटि के कारण हो सकता है।\n\nत्रुटि विवरण: %@";
+"alert.launchAtLoginFailed" = "स्वचालित प्रारंभ सेट करना विफल";
+"alert.launchAtLoginFailedDescription" = "स्वचालित प्रारंभ सेटिंग बदलने में असमर्थ।\n\nत्रुटि विवरण: %@";
+
+// App Name
+"app.name" = "माइंडफुलनेस वॉलपेपर";

@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Korean Localization
+*/
+
+// Theme Names
+"theme.colorful" = "다채로운";
+"theme.green" = "초록색";
+"theme.yellow" = "노란색";
+"theme.orange" = "주황색";
+"theme.red" = "빨간색";
+"theme.purple" = "보라색";
+"theme.blue" = "파란색";
+"theme.warmSilver" = "따뜻한 실버";
+"theme.coolSilver" = "차가운 실버";
+
+// Appearance Modes
+"appearance.auto" = "자동";
+"appearance.autoBlack" = "자동 (블랙)";
+"appearance.light" = "라이트";
+"appearance.dark" = "다크";
+"appearance.black" = "다크 (블랙)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "배경화면으로 설정";
+"button.openMainWindow" = "메인 창 열기";
+"button.powerSaveMode" = "절전 모드";
+"button.launchAtLogin" = "로그인 시 실행";
+"button.quit" = "종료";
+"button.ok" = "확인";
+"button.later" = "나중에";
+"button.openSystemPreferences" = "시스템 환경설정 열기";
+
+// Alerts and Messages
+"alert.permissionRequired" = "권한 필요";
+"alert.permissionDescription" = "앱이 %@하려면 추가 권한이 필요합니다.\n\n시스템 환경설정 > 보안 및 개인 정보 보호 > 개인 정보 보호 > 자동화에서 'ChromaFlow'가 'Finder'에 접근할 수 있도록 허용해주세요.";
+"alert.hideDesktopIcons" = "데스크탑 아이콘 숨기기";
+"alert.setWallpaperFailed" = "배경화면 설정 실패";
+"alert.setWallpaperFailedDescription" = "배경화면을 설정할 수 없습니다. 권한 문제나 파일 쓰기 오류일 수 있습니다.\n\n오류 세부사항: %@";
+"alert.launchAtLoginFailed" = "로그인 시 실행 설정 실패";
+"alert.launchAtLoginFailedDescription" = "로그인 시 실행 설정을 변경하지 못했습니다.\n\n오류 세부사항: %@";
+
+// App Name
+"app.name" = "마음챙김 배경화면";

@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Russian Localization
+*/
+
+"CFBundleName" = "Осознанные Обои";
+"CFBundleDisplayName" = "Осознанные Обои";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. Все права защищены.";

@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  English Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Colorful";
+"theme.green" = "Green";
+"theme.yellow" = "Yellow";
+"theme.orange" = "Orange";
+"theme.red" = "Red";
+"theme.purple" = "Purple";
+"theme.blue" = "Blue";
+"theme.warmSilver" = "Warm Silver";
+"theme.coolSilver" = "Cool Silver";
+
+// Appearance Modes
+"appearance.auto" = "Auto";
+"appearance.autoBlack" = "Auto (Black)";
+"appearance.light" = "Light";
+"appearance.dark" = "Dark";
+"appearance.black" = "Dark (Black)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Set as Wallpaper";
+"button.openMainWindow" = "Open Main Window";
+"button.powerSaveMode" = "Power Save Mode";
+"button.launchAtLogin" = "Launch at Login";
+"button.quit" = "Quit";
+"button.ok" = "OK";
+"button.later" = "Later";
+"button.openSystemPreferences" = "Open System Preferences";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Permission Required";
+"alert.permissionDescription" = "The app needs additional permissions to %@.\n\nPlease go to System Preferences > Security & Privacy > Privacy > Automation, and allow 'ChromaFlow' to access 'Finder'.";
+"alert.hideDesktopIcons" = "hide desktop icons";
+"alert.setWallpaperFailed" = "Failed to Set Wallpaper";
+"alert.setWallpaperFailedDescription" = "Unable to set wallpaper. This might be due to permission issues or file write failure.\n\nError details: %@";
+"alert.launchAtLoginFailed" = "Failed to Set Launch at Login";
+"alert.launchAtLoginFailedDescription" = "Failed to modify launch at login settings.\n\nError details: %@";
+
+// App Name
+"app.name" = "ChromaFlow";

@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Chinese (Simplified) Localization
+*/
+
+"CFBundleName" = "正念壁纸";
+"CFBundleDisplayName" = "正念壁纸";
+"NSHumanReadableCopyright" = "版权所有 © 2024 正念壁纸。保留所有权利。";

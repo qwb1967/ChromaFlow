@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  English Localization
+*/
+
+"CFBundleName" = "ChromaFlow";
+"CFBundleDisplayName" = "ChromaFlow";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. All rights reserved.";

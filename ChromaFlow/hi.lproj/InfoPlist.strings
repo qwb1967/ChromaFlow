@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Hindi Localization
+*/
+
+"CFBundleName" = "माइंडफुलनेस वॉलपेपर";
+"CFBundleDisplayName" = "माइंडफुलनेस वॉलपेपर";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. सर्वाधिकार सुरक्षित।";

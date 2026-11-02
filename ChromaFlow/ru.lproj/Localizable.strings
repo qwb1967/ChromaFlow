@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Russian Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Разноцветный";
+"theme.green" = "Зелёный";
+"theme.yellow" = "Жёлтый";
+"theme.orange" = "Оранжевый";
+"theme.red" = "Красный";
+"theme.purple" = "Фиолетовый";
+"theme.blue" = "Синий";
+"theme.warmSilver" = "Тёплое серебро";
+"theme.coolSilver" = "Холодное серебро";
+
+// Appearance Modes
+"appearance.auto" = "Автоматически";
+"appearance.autoBlack" = "Автоматически (Чёрный)";
+"appearance.light" = "Светлый";
+"appearance.dark" = "Тёмный";
+"appearance.black" = "Тёмный (Чёрный)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Установить как обои";
+"button.openMainWindow" = "Открыть главное окно";
+"button.powerSaveMode" = "Режим энергосбережения";
+"button.launchAtLogin" = "Запускать при входе";
+"button.quit" = "Выйти";
+"button.ok" = "OK";
+"button.later" = "Позже";
+"button.openSystemPreferences" = "Открыть Системные настройки";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Требуется разрешение";
+"alert.permissionDescription" = "Приложению требуются дополнительные разрешения для %@.\n\nПожалуйста, перейдите в Системные настройки > Защита и безопасность > Конфиденциальность > Автоматизация и разрешите 'ChromaFlow' доступ к 'Finder'.";
+"alert.hideDesktopIcons" = "скрытия значков рабочего стола";
+"alert.setWallpaperFailed" = "Не удалось установить обои";
+"alert.setWallpaperFailedDescription" = "Невозможно установить обои. Это может быть связано с проблемами разрешений или ошибкой записи файла.\n\nПодробности ошибки: %@";
+"alert.launchAtLoginFailed" = "Не удалось настроить автозапуск";
+"alert.launchAtLoginFailedDescription" = "Не удалось изменить настройку автозапуска.\n\nПодробности ошибки: %@";
+
+// App Name
+"app.name" = "Осознанные Обои";

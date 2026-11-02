@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  Korean Localization
+*/
+
+"CFBundleName" = "마음챙김 배경화면";
+"CFBundleDisplayName" = "마음챙김 배경화면";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. All rights reserved.";

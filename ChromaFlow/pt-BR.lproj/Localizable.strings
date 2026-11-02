@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  Portuguese (Brazil) Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Colorido";
+"theme.green" = "Verde";
+"theme.yellow" = "Amarelo";
+"theme.orange" = "Laranja";
+"theme.red" = "Vermelho";
+"theme.purple" = "Roxo";
+"theme.blue" = "Azul";
+"theme.warmSilver" = "Prata Quente";
+"theme.coolSilver" = "Prata Fria";
+
+// Appearance Modes
+"appearance.auto" = "Automático";
+"appearance.autoBlack" = "Automático (Preto)";
+"appearance.light" = "Claro";
+"appearance.dark" = "Escuro";
+"appearance.black" = "Escuro (Preto)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Definir como papel de parede";
+"button.openMainWindow" = "Abrir janela principal";
+"button.powerSaveMode" = "Modo economia de energia";
+"button.launchAtLogin" = "Iniciar no login";
+"button.quit" = "Sair";
+"button.ok" = "OK";
+"button.later" = "Mais tarde";
+"button.openSystemPreferences" = "Abrir Preferências do Sistema";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Permissão necessária";
+"alert.permissionDescription" = "O aplicativo precisa de permissões adicionais para %@.\n\nPor favor, vá para Preferências do Sistema > Segurança e Privacidade > Privacidade > Automação e permita que 'ChromaFlow' acesse o 'Finder'.";
+"alert.hideDesktopIcons" = "ocultar ícones da área de trabalho";
+"alert.setWallpaperFailed" = "Falha ao definir papel de parede";
+"alert.setWallpaperFailedDescription" = "Não foi possível definir o papel de parede. Isso pode ser devido a problemas de permissão ou erro de gravação de arquivo.\n\nDetalhes do erro: %@";
+"alert.launchAtLoginFailed" = "Falha ao configurar inicialização automática";
+"alert.launchAtLoginFailedDescription" = "Não foi possível alterar a configuração de inicialização automática.\n\nDetalhes do erro: %@";
+
+// App Name
+"app.name" = "Papel de Parede Mindfulness";

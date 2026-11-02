@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ChromaFlow
+
+  German Localization
+*/
+
+// Theme Names
+"theme.colorful" = "Bunt";
+"theme.green" = "Grün";
+"theme.yellow" = "Gelb";
+"theme.orange" = "Orange";
+"theme.red" = "Rot";
+"theme.purple" = "Lila";
+"theme.blue" = "Blau";
+"theme.warmSilver" = "Warmes Silber";
+"theme.coolSilver" = "Kühles Silber";
+
+// Appearance Modes
+"appearance.auto" = "Automatisch";
+"appearance.autoBlack" = "Automatisch (Schwarz)";
+"appearance.light" = "Hell";
+"appearance.dark" = "Dunkel";
+"appearance.black" = "Dunkel (Schwarz)";
+
+// UI Buttons and Labels
+"button.setWallpaper" = "Als Hintergrundbild festlegen";
+"button.openMainWindow" = "Hauptfenster öffnen";
+"button.powerSaveMode" = "Energiesparmodus";
+"button.launchAtLogin" = "Bei Anmeldung starten";
+"button.quit" = "Beenden";
+"button.ok" = "OK";
+"button.later" = "Später";
+"button.openSystemPreferences" = "Systemeinstellungen öffnen";
+
+// Alerts and Messages
+"alert.permissionRequired" = "Berechtigung erforderlich";
+"alert.permissionDescription" = "Die App benötigt zusätzliche Berechtigungen um %@.\n\nBitte gehen Sie zu Systemeinstellungen > Sicherheit & Datenschutz > Datenschutz > Automatisierung und erlauben Sie 'ChromaFlow' den Zugriff auf 'Finder'.";
+"alert.hideDesktopIcons" = "Schreibtischsymbole ausblenden";
+"alert.setWallpaperFailed" = "Hintergrundbild konnte nicht festgelegt werden";
+"alert.setWallpaperFailedDescription" = "Das Hintergrundbild kann nicht festgelegt werden. Dies könnte an Berechtigungsproblemen oder einem Schreibfehler liegen.\n\nFehlerdetails: %@";
+"alert.launchAtLoginFailed" = "Start bei Anmeldung fehlgeschlagen";
+"alert.launchAtLoginFailedDescription" = "Die Einstellung für den Start bei Anmeldung konnte nicht geändert werden.\n\nFehlerdetails: %@";
+
+// App Name
+"app.name" = "Achtsamkeit Hintergrundbild";

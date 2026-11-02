@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings
+  ChromaFlow
+
+  German Localization
+*/
+
+"CFBundleName" = "Achtsamkeit Hintergrundbild";
+"CFBundleDisplayName" = "Achtsamkeit Hintergrundbild";
+"NSHumanReadableCopyright" = "Copyright © 2024 ChromaFlow. Alle Rechte vorbehalten.";
